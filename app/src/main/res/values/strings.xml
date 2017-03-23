@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SYEBallerApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="personal_info">Personal Information</string>
+    <string name="enter_your_username">Username</string>
+    <string name="enter_your_gender">Gender</string>
+    <string name="enter_your_height">Height</string>
+    <string name="enter_your_weight">Weight</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="ball_is_life">Ball is Life</string>
+    <string name="about">About</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="profile_activity">profileActivity</string>
+    <string name="signup_activity">signupActivity</string>
+    <string name="signin_activity">signinActivity</string>
+    <string name="nextpage_1">Next</string>
+    <string name="done">done</string>
+
+</resources>

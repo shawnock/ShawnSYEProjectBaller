@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shawnocked.syeballerapp.AccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/menu_marginBottom"
+        android:layout_gravity="center"
+        android:text="@string/ball_is_life"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="@dimen/menu_fontSize"
+        android:textColor="@color/highlight" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_this_game"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/about"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/sign_in"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/sign_up" />
+
+
+</LinearLayout>
