@@ -15,7 +15,15 @@
     <string name="profile_activity">profileActivity</string>
     <string name="signup_activity">signupActivity</string>
     <string name="signin_activity">signinActivity</string>
-    <string name="nextpage_1">Next</string>
     <string name="done">done</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="next_button">Next</string>
+    <string name="welcome_to_baller">Welcome to Baller</string>
+    <string name="please_choose_your_play_mode">Please Choose Your Play Mode :</string>
+    <string name="solo">Solo</string>
+    <string name="half_court">Half Court</string>
+    <string name="full_court">Full Court</string>
+    <string name="donebutton">Done</string>
 
 </resources>

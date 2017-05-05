@@ -32,12 +32,21 @@
         android:id="@+id/list_info">
     </ListView>
 
-    <fragment
+    <Button
+        android:layout_below="@+id/list_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneButton"
+        android:text="@string/donebutton"
+        android:layout_gravity="center"
+        />
+
+<!--    <fragment
         android:layout_below="@+id/list_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/donefragment"
         class="com.example.shawnocked.syeballerapp.DoneButton"
-        tools:layout="@layout/fragment_done"/>
+        tools:layout="@layout/fragment_done"/>-->
 
 </RelativeLayout>

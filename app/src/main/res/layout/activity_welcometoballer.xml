@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/vc_the_missing_dunk"/>
+
+    <TextView
+        android:id="@+id/welcometoballer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome_to_baller"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="@dimen/menu_buttonPadding"
+        />
+
+    <LinearLayout
+        android:paddingTop="@dimen/top_padding"
+        android:layout_below="@+id/welcometoballer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/choose_your_play_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_choose_your_play_mode"
+            android:textSize="24sp"
+            android:textColor="@color/colorRedRose"
+            android:paddingBottom="@dimen/huge_gap"
+            />
+
+        <Button
+            android:id="@+id/solo"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solo"
+            android:paddingBottom="@dimen/menu_buttonPadding"
+            />
+
+        <Button
+            android:id="@+id/half_court"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/half_court"
+            android:paddingBottom="@dimen/menu_buttonPadding"
+            />
+
+        <Button
+            android:id="@+id/full_court"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_court"
+            android:paddingBottom="@dimen/menu_buttonPadding"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

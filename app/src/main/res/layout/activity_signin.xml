@@ -8,8 +8,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/musekobe"
         android:scaleType="centerCrop"
-        android:background="@drawable/klay_thompson"/>
+        android:layout_gravity="top" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +22,8 @@
             android:id="@+id/signin_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username:"
+            android:text="@string/username"
+            android:textColor="@color/colorRedRose"
             android:paddingLeft="@dimen/left_padding"
             android:paddingRight="@dimen/right_padding"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -30,14 +33,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/signin_enter_username"
-            android:textAppearance="?android:attr/textAppearanceLarge"/>
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/click_color"/>
 
         <TextView
             android:layout_below="@+id/signin_username"
             android:id="@+id/signin_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password:"
+            android:text="@string/password"
+            android:textColor="@color/colorRedRose"
             android:paddingLeft="@dimen/left_padding"
             android:paddingRight="@dimen/right_padding"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
@@ -47,13 +52,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/signin_enter_password"
-            android:textAppearance="?android:attr/textAppearanceLarge"/>
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/click_color"/>
 
         <Button
             android:id="@+id/sign_in_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/top_padding"
+            android:text="@string/sign_in"
             android:layout_gravity="center"/>
 
     </LinearLayout>

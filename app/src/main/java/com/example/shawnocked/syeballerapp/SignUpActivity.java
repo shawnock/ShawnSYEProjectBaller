@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class SignUpActivity extends Activity {
     EditText username;
     EditText password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

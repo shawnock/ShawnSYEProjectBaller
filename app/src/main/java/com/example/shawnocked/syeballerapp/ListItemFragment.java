@@ -1,6 +1,8 @@
 package com.example.shawnocked.syeballerapp;
 
+import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +16,7 @@ import android.widget.EditText;
 
 public class ListItemFragment extends Fragment{
     private EditText editText;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -32,4 +35,5 @@ public class ListItemFragment extends Fragment{
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
     }
+
 }

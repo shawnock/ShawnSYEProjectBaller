@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class SignInActivity extends Activity {
     EditText username;
     EditText password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +36,7 @@ public class SignInActivity extends Activity {
                         re = asyncLoad.get(5, TimeUnit.SECONDS);
                         Log.d("HOPE ON ==============>",re);
                         if(re.equals("200")) {
-                            Intent intent = new Intent(SignInActivity.this, ProfileActivity.class);
+                            Intent intent = new Intent(SignInActivity.this, WelcomeToBallerActivity.class);
                             startActivity(intent);
                         }
 

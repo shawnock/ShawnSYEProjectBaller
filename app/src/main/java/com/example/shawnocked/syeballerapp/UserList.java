@@ -31,4 +31,8 @@ public class UserList {
         userLists.add(new UserList("Position: ", input));
         return userLists;
     }
+
+    public EditText getEditText() {
+        return editText;
+    }
 }
